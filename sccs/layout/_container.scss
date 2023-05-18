@@ -1,0 +1,12 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media only screen and (max-wdth: 375px){
+  .container{
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
